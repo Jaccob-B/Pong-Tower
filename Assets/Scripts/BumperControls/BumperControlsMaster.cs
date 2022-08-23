@@ -28,6 +28,7 @@ public class BumperControlsMaster : MonoBehaviour
             leftBumperSelected = false;
         }
 
+        //constrains vertical movement of bumpers
         transform.position = new(transform.position.x, Mathf.Clamp(transform.position.y, -ymax, ymax), transform.position.z);
     }
 }

@@ -13,11 +13,6 @@ public class BumperControlLeft : MonoBehaviour
     {
         leftBumperSelected = GetComponent<BumperControlsMaster>().leftBumperSelected;
         speed = GetComponent<BumperControlsMaster>().speed;
-        if (leftBumperSelected)
-
-        {   
-            //GetComponent<Renderer>().material.color = Color.magenta;
-        }
     }
 
     // Update is called once per frame
